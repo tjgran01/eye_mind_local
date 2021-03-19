@@ -1,0 +1,17 @@
+raw = nirs.io.loadDirectory('../data/test_long_stim', {'Subject'}, {@nirs.io.loadNIRx})
+
+% STIM ORDER
+
+% 1 - 1 - "BIGBREAK"
+% 2 - 2 - "Recal"
+% 3 - 3 - "Drift Correct"
+% 7 - 4 - "Page"
+% 12 - 5 - ""
+% 13 - 6
+% 14 - 7
+% 20 - 8 - 
+% 25 - 9 - "resting-state"
+% 51 - 10 - "sentences"
+% 52 - 11 - "words"
+% 53 - 12 - "jabsent"
+% 54 - 13 - "jabwords"
